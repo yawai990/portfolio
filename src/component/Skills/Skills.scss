@@ -1,0 +1,61 @@
+.app__skills{
+    width: 100%;
+    flex: 1;
+}
+
+.app__skills-exp{
+    display: flex;
+    flex: 1;
+    justify-content:center;
+    align-items: flex-start;
+    margin: 4rem 2rem; 
+
+    .app__skills-wrapper{
+        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 2rem;
+        div{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: var(--white-color);
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+            margin: 2rem;
+
+            img{
+                width: 60%;
+                height: 60%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+@media screen and (max-width:768px) {
+    .app__skills-exp{
+        flex-direction: column;
+        align-items: center;
+        .app__skills-wrapper{
+            margin: 0;
+        }
+    }
+}
+.app__exp{
+        div{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin: 1rem 0;
+            .app__exp-year{
+                margin-right: 1rem;
+                font-size: 1.1rem;
+            }
+            .app__exp-company{
+                flex-direction: column;
+                align-items: flex-start;
+                h5{
+                    font-size: 1rem;
+                }
+            }
+        }
+}
