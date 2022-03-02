@@ -1,0 +1,32 @@
+.app__social-side-icon-wrapper{
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    a{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: var(--white-color);
+        box-shadow: 0 0 25px rgba(0,0,0,0.3);
+        text-decoration: none;
+        margin: 0.3rem 0;
+        svg{
+            width: 70%;
+            height: 70%;
+        }
+        }
+
+    a:first-child,a:nth-child(2){
+        color: var(--primary-color);
+    }
+    a:nth-child(3){
+        color:rgb(73, 240, 68);
+    }
+    a:last-child{
+        color: rgb(107, 14, 84);
+    }
+            
+
+}

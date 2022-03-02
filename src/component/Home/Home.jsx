@@ -24,7 +24,7 @@ const Home = () => {
                     <h5>👋 I am <br /> Junior Web Develper</h5>
 
                     <p>A <span style={{ color: "var(--primary-color)" }}>Junior Front End Developer </span>
-                        passionate about creating interactibe application</p>
+                        passionate about creating interactive application</p>
                 </motion.div>
 
                 <div className='app__mid app__cv-btn'>
