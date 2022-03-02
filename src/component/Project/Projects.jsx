@@ -7,8 +7,9 @@ import { AiFillEye, AiFillGithub } from 'react-icons/ai';
 import './Projects.scss';
 
 const data = [
+    { title: 'Web Development', description: `it's a weather app,utilize this app to know your living city or any other city that u wanna know the weather`, imgURL: images.js01, cat: 'javascript', link: 'https://yawai990.github.io/weatherapp/', code: 'https://github.com/yawai990/weatherapp' },
+    { title: 'Web Development', description: 'it\'s is a tiny e-commerce app,you can try like a real e-commerce', imgURL: images.react01, cat: 'javascript', link: 'https://shopmm.netlify.app/', code: 'https://github.com/yawai990/e-commerce' },
     { title: 'Web Development', description: 'I am a good web developer', imgURL: images.about01, cat: 'javascript', link: 'https://yawai990.github.io/weatherapp/', code: 'https://github.com/yawai990/weatherapp' },
-    { title: 'Web Development', description: 'I am a good web developer', imgURL: images.js01, cat: 'javascript', link: 'https://yawai990.github.io/weatherapp/', code: 'https://github.com/yawai990/weatherapp' },
     { title: 'Web Design', description: 'I am a good web developer', imgURL: images.about02, cat: 'mysql', link: 'https://yawai990.github.io/weatherapp/', code: 'https://github.com/yawai990/weatherapp' },
     { title: 'UI/UX', description: 'I am a good web developer', imgURL: images.about03, cat: 'react', link: 'https://yawai990.github.io/weatherapp/', code: 'https://github.com/yawai990/weatherapp' },
     { title: 'Web Animations', description: 'I am a good web developer', imgURL: images.about04, cat: 'mysql', link: 'https://yawai990.github.io/weatherapp/', code: 'https://github.com/yawai990/weatherapp' },
