@@ -1,0 +1,27 @@
+.App{
+    transition: all 4s linear;
+}
+.app__container{
+    width: 100%;
+    min-height: 100vh;
+    display:flex;
+    font-family: var(--font-base);
+
+}
+.app__mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+}
+.b-text{
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.p-text{
+    font-size: 1rem;
+    font-weight: 400;
+}

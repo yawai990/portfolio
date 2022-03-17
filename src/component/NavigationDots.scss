@@ -1,0 +1,19 @@
+.app__navigation-dots{
+    margin-right: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    a{
+        width: 8px;
+        height: 8px;
+        transform: rotate(45deg);
+        margin: 0.3rem 0;
+    }
+}
+
+@media screen and (max-width:500px){
+    .app__navigation-dots{
+        display: none;
+    }
+}
